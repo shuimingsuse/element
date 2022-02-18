@@ -683,6 +683,12 @@
       },
 
       handleOptionSelect(option, byClick) {
+        this.$alert('这是一段内容', '标题名称', {
+          confirmButtonText: '确定',
+          callback: action => {
+            
+          }
+        })
         if (this.multiple) {
           const value = (this.value || []).slice();
           const optionIndex = this.getValueIndex(value, option.value);
@@ -752,6 +758,12 @@
       },
 
       selectOption() {
+        this.$alert('这是一段内容', '标题名称', {
+          confirmButtonText: '确定',
+          callback: action => {
+            
+          }
+        })
         if (!this.visible) {
           this.toggleMenu();
         } else {
