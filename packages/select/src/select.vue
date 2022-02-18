@@ -683,7 +683,7 @@
       },
 
       handleOptionSelect(option, byClick) {
-        this.$alert('handleOptionSelect', '标题名称', {
+        this.$alert('handleOption修改Select', '标题名称', {
           confirmButtonText: '确定',
           callback: action => {
           }
